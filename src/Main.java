@@ -14,6 +14,7 @@ public class Main {
         System.out.print(prompt);
         if (in.hasNextDouble()) {
             itemPrice = in.nextDouble();
+            in.nextLine();
             if (itemPrice >= 100) {
                 shippingCost = 0;
                 totalPrice = itemPrice;
